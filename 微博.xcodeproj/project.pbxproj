@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D766446E1D68225600838369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766446D1D68225600838369 /* AppDelegate.swift */; };
-		D76644701D68225600838369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766446F1D68225600838369 /* ViewController.swift */; };
-		D76644731D68225600838369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76644711D68225600838369 /* Main.storyboard */; };
 		D76644751D68225600838369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76644741D68225600838369 /* Assets.xcassets */; };
-		D76644781D68225600838369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76644761D68225600838369 /* LaunchScreen.storyboard */; };
 		D76644831D68225600838369 /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644821D68225600838369 /* __Tests.swift */; };
 		D766448E1D68225600838369 /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766448D1D68225600838369 /* __UITests.swift */; };
+		D76644A51D68525400838369 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644A41D68525400838369 /* MainViewController.swift */; };
+		D76644A71D6852B400838369 /* MainNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644A61D6852B400838369 /* MainNavgationController.swift */; };
+		D76644A91D68534800838369 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644A81D68534800838369 /* BaseViewController.swift */; };
+		D76644AB1D68571500838369 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644AA1D68571500838369 /* HomeViewController.swift */; };
+		D76644AD1D68572100838369 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644AC1D68572100838369 /* DiscoverViewController.swift */; };
+		D76644AF1D68573700838369 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644AE1D68573700838369 /* MessageViewController.swift */; };
+		D76644B11D68574A00838369 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644B01D68574A00838369 /* ProfileViewController.swift */; };
+		D76644B31D68980600838369 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76644B21D68980600838369 /* Storyboard.storyboard */; };
+		D7FDDEB11D69D450005FB958 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDEB01D69D450005FB958 /* DemoViewController.swift */; };
+		D7FDDEB71D69F450005FB958 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDEB61D69F450005FB958 /* UIColor+CZAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,7 @@
 /* Begin PBXFileReference section */
 		D766446A1D68225500838369 /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D766446D1D68225600838369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D766446F1D68225600838369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D76644721D68225600838369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D76644741D68225600838369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D76644771D68225600838369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D76644791D68225600838369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D766447E1D68225600838369 /* 微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76644821D68225600838369 /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +51,18 @@
 		D76644891D68225600838369 /* 微博UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D766448D1D68225600838369 /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		D766448F1D68225600838369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D76644A41D68525400838369 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D76644A61D6852B400838369 /* MainNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavgationController.swift; sourceTree = "<group>"; };
+		D76644A81D68534800838369 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D76644AA1D68571500838369 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D76644AC1D68572100838369 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		D76644AE1D68573700838369 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		D76644B01D68574A00838369 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D76644B21D68980600838369 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D7FDDEB01D69D450005FB958 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		D7FDDEB41D69F450005FB958 /* 微博-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "微博-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7FDDEB51D69F450005FB958 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		D7FDDEB61D69F450005FB958 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,14 @@
 		D766446C1D68225500838369 /* 微博 */ = {
 			isa = PBXGroup;
 			children = (
+				D766449B1D68292B00838369 /* Classes */,
 				D766446D1D68225600838369 /* AppDelegate.swift */,
-				D766446F1D68225600838369 /* ViewController.swift */,
-				D76644711D68225600838369 /* Main.storyboard */,
+				D7FDDEB51D69F450005FB958 /* UIColor+CZAddition.h */,
+				D7FDDEB61D69F450005FB958 /* UIColor+CZAddition.m */,
+				D7FDDEB41D69F450005FB958 /* 微博-Bridging-Header.h */,
 				D76644741D68225600838369 /* Assets.xcassets */,
-				D76644761D68225600838369 /* LaunchScreen.storyboard */,
 				D76644791D68225600838369 /* Info.plist */,
+				D76644B21D68980600838369 /* Storyboard.storyboard */,
 			);
 			path = "微博";
 			sourceTree = "<group>";
@@ -123,6 +141,93 @@
 				D766448F1D68225600838369 /* Info.plist */,
 			);
 			path = "微博UITests";
+			sourceTree = "<group>";
+		};
+		D766449B1D68292B00838369 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D766449C1D68294200838369 /* View */,
+				D766449D1D68294D00838369 /* ViewModel */,
+				D766449E1D68296000838369 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D766449C1D68294200838369 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D76644A01D6829E900838369 /* Main */,
+				D766449F1D6829CA00838369 /* Home */,
+				D76644A11D6829FD00838369 /* Discover */,
+				D76644A21D682A0D00838369 /* Message */,
+				D76644A31D682A1500838369 /* profile */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D766449D1D68294D00838369 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D766449E1D68296000838369 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D766449F1D6829CA00838369 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D76644AA1D68571500838369 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D76644A01D6829E900838369 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D7FDDEAF1D69D3F5005FB958 /* demo */,
+				D76644A41D68525400838369 /* MainViewController.swift */,
+				D76644A61D6852B400838369 /* MainNavgationController.swift */,
+				D76644A81D68534800838369 /* BaseViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D76644A11D6829FD00838369 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				D76644AC1D68572100838369 /* DiscoverViewController.swift */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		D76644A21D682A0D00838369 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D76644AE1D68573700838369 /* MessageViewController.swift */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		D76644A31D682A1500838369 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				D76644B01D68574A00838369 /* ProfileViewController.swift */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
+		D7FDDEAF1D69D3F5005FB958 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				D7FDDEB01D69D450005FB958 /* DemoViewController.swift */,
+			);
+			name = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +298,7 @@
 				TargetAttributes = {
 					D76644691D68225500838369 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					D766447D1D68225600838369 = {
@@ -232,9 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76644781D68225600838369 /* LaunchScreen.storyboard in Resources */,
 				D76644751D68225600838369 /* Assets.xcassets in Resources */,
-				D76644731D68225600838369 /* Main.storyboard in Resources */,
+				D76644B31D68980600838369 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +364,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76644701D68225600838369 /* ViewController.swift in Sources */,
+				D7FDDEB71D69F450005FB958 /* UIColor+CZAddition.m in Sources */,
+				D76644AB1D68571500838369 /* HomeViewController.swift in Sources */,
+				D76644A71D6852B400838369 /* MainNavgationController.swift in Sources */,
+				D76644A91D68534800838369 /* BaseViewController.swift in Sources */,
+				D76644AD1D68572100838369 /* DiscoverViewController.swift in Sources */,
 				D766446E1D68225600838369 /* AppDelegate.swift in Sources */,
+				D76644A51D68525400838369 /* MainViewController.swift in Sources */,
+				D76644B11D68574A00838369 /* ProfileViewController.swift in Sources */,
+				D76644AF1D68573700838369 /* MessageViewController.swift in Sources */,
+				D7FDDEB11D69D450005FB958 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +407,6 @@
 			targetProxy = D766448A1D68225600838369 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D76644711D68225600838369 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D76644721D68225600838369 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D76644761D68225600838369 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D76644771D68225600838369 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D76644901D68225600838369 /* Debug */ = {
@@ -410,10 +504,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IBMChina.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "微博/微博-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -422,10 +521,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IBMChina.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "微博/微博-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -503,6 +606,7 @@
 				D76644941D68225600838369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D76644951D68225600838369 /* Build configuration list for PBXNativeTarget "微博Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +615,7 @@
 				D76644971D68225600838369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D76644981D68225600838369 /* Build configuration list for PBXNativeTarget "微博UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +624,7 @@
 				D766449A1D68225600838369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
