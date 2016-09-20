@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7506D201D9029B2008589A9 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D091D9029B2008589A9 /* NSArray+Log.m */; };
+		D7506D211D9029B2008589A9 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D0B1D9029B2008589A9 /* NSAttributedString+CZAdditon.m */; };
+		D7506D221D9029B2008589A9 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D0D1D9029B2008589A9 /* NSObject+CZRuntime.m */; };
+		D7506D231D9029B2008589A9 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D0F1D9029B2008589A9 /* NSString+CZBase64.m */; };
+		D7506D241D9029B2008589A9 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D111D9029B2008589A9 /* NSString+CZHash.m */; };
+		D7506D251D9029B2008589A9 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D131D9029B2008589A9 /* NSString+CZPath.m */; };
+		D7506D261D9029B2008589A9 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D151D9029B2008589A9 /* UIButton+CZAddition.m */; };
+		D7506D271D9029B2008589A9 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D171D9029B2008589A9 /* UIColor+CZAddition.m */; };
+		D7506D281D9029B2008589A9 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D191D9029B2008589A9 /* UILabel+CZAddition.m */; };
+		D7506D291D9029B2008589A9 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D1B1D9029B2008589A9 /* UIScreen+CZAddition.m */; };
+		D7506D2A1D9029B2008589A9 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D1D1D9029B2008589A9 /* UIView+CZAddition.m */; };
+		D7506D2B1D9029B2008589A9 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7506D1F1D9029B2008589A9 /* UIViewController+CZAddition.m */; };
+		D7506D2F1D9033C4008589A9 /* BarbuttonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7506D2E1D9033C4008589A9 /* BarbuttonItem+Extension.swift */; };
 		D766446E1D68225600838369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766446D1D68225600838369 /* AppDelegate.swift */; };
 		D76644751D68225600838369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76644741D68225600838369 /* Assets.xcassets */; };
 		D76644831D68225600838369 /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644821D68225600838369 /* __Tests.swift */; };
@@ -20,7 +33,6 @@
 		D76644B11D68574A00838369 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76644B01D68574A00838369 /* ProfileViewController.swift */; };
 		D76644B31D68980600838369 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76644B21D68980600838369 /* Storyboard.storyboard */; };
 		D7FDDEB11D69D450005FB958 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDEB01D69D450005FB958 /* DemoViewController.swift */; };
-		D7FDDEB71D69F450005FB958 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FDDEB61D69F450005FB958 /* UIColor+CZAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +53,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7506D031D90286B008589A9 /* Weibo-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Weibo-Bridge.h"; sourceTree = "<group>"; };
+		D7506D071D9029B2008589A9 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CZAdditions.h; path = Additions/CZAdditions.h; sourceTree = "<group>"; };
+		D7506D081D9029B2008589A9 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "Additions/NSArray+Log.h"; sourceTree = "<group>"; };
+		D7506D091D9029B2008589A9 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "Additions/NSArray+Log.m"; sourceTree = "<group>"; };
+		D7506D0A1D9029B2008589A9 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+CZAdditon.h"; path = "Additions/NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		D7506D0B1D9029B2008589A9 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+CZAdditon.m"; path = "Additions/NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		D7506D0C1D9029B2008589A9 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+CZRuntime.h"; path = "Additions/NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		D7506D0D1D9029B2008589A9 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CZRuntime.m"; path = "Additions/NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		D7506D0E1D9029B2008589A9 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CZBase64.h"; path = "Additions/NSString+CZBase64.h"; sourceTree = "<group>"; };
+		D7506D0F1D9029B2008589A9 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CZBase64.m"; path = "Additions/NSString+CZBase64.m"; sourceTree = "<group>"; };
+		D7506D101D9029B2008589A9 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CZHash.h"; path = "Additions/NSString+CZHash.h"; sourceTree = "<group>"; };
+		D7506D111D9029B2008589A9 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CZHash.m"; path = "Additions/NSString+CZHash.m"; sourceTree = "<group>"; };
+		D7506D121D9029B2008589A9 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CZPath.h"; path = "Additions/NSString+CZPath.h"; sourceTree = "<group>"; };
+		D7506D131D9029B2008589A9 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CZPath.m"; path = "Additions/NSString+CZPath.m"; sourceTree = "<group>"; };
+		D7506D141D9029B2008589A9 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+CZAddition.h"; path = "Additions/UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		D7506D151D9029B2008589A9 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CZAddition.m"; path = "Additions/UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		D7506D161D9029B2008589A9 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+CZAddition.h"; path = "Additions/UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		D7506D171D9029B2008589A9 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CZAddition.m"; path = "Additions/UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		D7506D181D9029B2008589A9 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+CZAddition.h"; path = "Additions/UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		D7506D191D9029B2008589A9 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+CZAddition.m"; path = "Additions/UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		D7506D1A1D9029B2008589A9 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+CZAddition.h"; path = "Additions/UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		D7506D1B1D9029B2008589A9 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+CZAddition.m"; path = "Additions/UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		D7506D1C1D9029B2008589A9 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CZAddition.h"; path = "Additions/UIView+CZAddition.h"; sourceTree = "<group>"; };
+		D7506D1D1D9029B2008589A9 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CZAddition.m"; path = "Additions/UIView+CZAddition.m"; sourceTree = "<group>"; };
+		D7506D1E1D9029B2008589A9 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CZAddition.h"; path = "Additions/UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		D7506D1F1D9029B2008589A9 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CZAddition.m"; path = "Additions/UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		D7506D2E1D9033C4008589A9 /* BarbuttonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BarbuttonItem+Extension.swift"; sourceTree = "<group>"; };
 		D766446A1D68225500838369 /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D766446D1D68225600838369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76644741D68225600838369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,9 +99,6 @@
 		D76644B01D68574A00838369 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D76644B21D68980600838369 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		D7FDDEB01D69D450005FB958 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
-		D7FDDEB41D69F450005FB958 /* 微博-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "微博-Bridging-Header.h"; sourceTree = "<group>"; };
-		D7FDDEB51D69F450005FB958 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
-		D7FDDEB61D69F450005FB958 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +126,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7506D2C1D9029D0008589A9 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				D7506D071D9029B2008589A9 /* CZAdditions.h */,
+				D7506D081D9029B2008589A9 /* NSArray+Log.h */,
+				D7506D091D9029B2008589A9 /* NSArray+Log.m */,
+				D7506D0A1D9029B2008589A9 /* NSAttributedString+CZAdditon.h */,
+				D7506D0B1D9029B2008589A9 /* NSAttributedString+CZAdditon.m */,
+				D7506D0C1D9029B2008589A9 /* NSObject+CZRuntime.h */,
+				D7506D0D1D9029B2008589A9 /* NSObject+CZRuntime.m */,
+				D7506D0E1D9029B2008589A9 /* NSString+CZBase64.h */,
+				D7506D0F1D9029B2008589A9 /* NSString+CZBase64.m */,
+				D7506D101D9029B2008589A9 /* NSString+CZHash.h */,
+				D7506D111D9029B2008589A9 /* NSString+CZHash.m */,
+				D7506D121D9029B2008589A9 /* NSString+CZPath.h */,
+				D7506D131D9029B2008589A9 /* NSString+CZPath.m */,
+				D7506D141D9029B2008589A9 /* UIButton+CZAddition.h */,
+				D7506D151D9029B2008589A9 /* UIButton+CZAddition.m */,
+				D7506D161D9029B2008589A9 /* UIColor+CZAddition.h */,
+				D7506D171D9029B2008589A9 /* UIColor+CZAddition.m */,
+				D7506D181D9029B2008589A9 /* UILabel+CZAddition.h */,
+				D7506D191D9029B2008589A9 /* UILabel+CZAddition.m */,
+				D7506D1A1D9029B2008589A9 /* UIScreen+CZAddition.h */,
+				D7506D1B1D9029B2008589A9 /* UIScreen+CZAddition.m */,
+				D7506D1C1D9029B2008589A9 /* UIView+CZAddition.h */,
+				D7506D1D1D9029B2008589A9 /* UIView+CZAddition.m */,
+				D7506D1E1D9029B2008589A9 /* UIViewController+CZAddition.h */,
+				D7506D1F1D9029B2008589A9 /* UIViewController+CZAddition.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		D7506D2D1D903394008589A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D7506D2E1D9033C4008589A9 /* BarbuttonItem+Extension.swift */,
+			);
+			name = Extension;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		D76644611D68225500838369 = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +192,9 @@
 			children = (
 				D766449B1D68292B00838369 /* Classes */,
 				D766446D1D68225600838369 /* AppDelegate.swift */,
-				D7FDDEB51D69F450005FB958 /* UIColor+CZAddition.h */,
-				D7FDDEB61D69F450005FB958 /* UIColor+CZAddition.m */,
-				D7FDDEB41D69F450005FB958 /* 微博-Bridging-Header.h */,
+				D7506D031D90286B008589A9 /* Weibo-Bridge.h */,
+				D7506D2D1D903394008589A9 /* Extension */,
+				D7506D2C1D9029D0008589A9 /* Additions */,
 				D76644741D68225600838369 /* Assets.xcassets */,
 				D76644791D68225600838369 /* Info.plist */,
 				D76644B21D68980600838369 /* Storyboard.storyboard */,
@@ -364,16 +441,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7FDDEB71D69F450005FB958 /* UIColor+CZAddition.m in Sources */,
 				D76644AB1D68571500838369 /* HomeViewController.swift in Sources */,
+				D7506D251D9029B2008589A9 /* NSString+CZPath.m in Sources */,
+				D7506D231D9029B2008589A9 /* NSString+CZBase64.m in Sources */,
 				D76644A71D6852B400838369 /* MainNavgationController.swift in Sources */,
+				D7506D271D9029B2008589A9 /* UIColor+CZAddition.m in Sources */,
 				D76644A91D68534800838369 /* BaseViewController.swift in Sources */,
 				D76644AD1D68572100838369 /* DiscoverViewController.swift in Sources */,
 				D766446E1D68225600838369 /* AppDelegate.swift in Sources */,
+				D7506D201D9029B2008589A9 /* NSArray+Log.m in Sources */,
+				D7506D281D9029B2008589A9 /* UILabel+CZAddition.m in Sources */,
+				D7506D2F1D9033C4008589A9 /* BarbuttonItem+Extension.swift in Sources */,
 				D76644A51D68525400838369 /* MainViewController.swift in Sources */,
+				D7506D211D9029B2008589A9 /* NSAttributedString+CZAdditon.m in Sources */,
 				D76644B11D68574A00838369 /* ProfileViewController.swift in Sources */,
+				D7506D241D9029B2008589A9 /* NSString+CZHash.m in Sources */,
 				D76644AF1D68573700838369 /* MessageViewController.swift in Sources */,
+				D7506D291D9029B2008589A9 /* UIScreen+CZAddition.m in Sources */,
 				D7FDDEB11D69D450005FB958 /* DemoViewController.swift in Sources */,
+				D7506D261D9029B2008589A9 /* UIButton+CZAddition.m in Sources */,
+				D7506D2B1D9029B2008589A9 /* UIViewController+CZAddition.m in Sources */,
+				D7506D221D9029B2008589A9 /* NSObject+CZRuntime.m in Sources */,
+				D7506D2A1D9029B2008589A9 /* UIView+CZAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +600,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IBMChina.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "微博/微博-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "微博/Weibo-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -528,7 +617,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IBMChina.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "微博/微博-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "微博/Weibo-Bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

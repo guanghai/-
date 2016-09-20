@@ -53,7 +53,7 @@ extension MainViewController{
             let imageName = dict["imageNmae"],
             let productName = Bundle.main.infoDictionary?["CFBundleName"] as? String,
             let cls = NSClassFromString(productName + "." + clsName) as? UIViewController.Type 
-            else {
+        else {
             
                 return UIViewController()
         }

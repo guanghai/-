@@ -14,7 +14,6 @@ class HomeViewController: BaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
     }
 
     //一行注释
@@ -32,6 +31,7 @@ extension HomeViewController{
     override func setupUI() {
         super.setupUI()
 
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "好友", style: .plain, target: self, action: #selector(barButton))
+        navItem.leftBarButtonItem = UIBarButtonItem(title: "好友", fontSize: 16, target: self, action: #selector(barButton))
+    
     }
 }
